@@ -1,8 +1,6 @@
-import { LikeWidgetModule } from './like-widget.module';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { UniqueIdService } from '../../services/unique-id/unique-id.service';
+import { LikeWidgetModule } from './like-widget.module';
 import { LikeWidgetComponent } from './like-widget.component';
 
 describe(LikeWidgetComponent.name, () => {
@@ -38,7 +36,7 @@ describe(LikeWidgetComponent.name, () => {
     expect(component.id).toBe(id);
   });
 
-  it(`#${LikeWidgetComponent.prototype.like.name} should trigger (@Output liked) when called`, () => {
+  it(`#${LikeWidgetComponent.prototype.like.name} should trigger (@output liked) when called`, () => {
     spyOn(component.liked, 'emit');
     fixture.detectChanges();
     component.like();

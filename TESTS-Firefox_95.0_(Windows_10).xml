@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<testsuite name="Firefox 95.0 (Windows 10)" package="" timestamp="2022-05-06T01:11:56" id="0" hostname="SPON019402426" tests="11" errors="0" failures="6" time="0.213">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:95.0) Gecko/20100101 Firefox/95.0"/>
+  </properties>
+  <testcase name="UniqueIdService #generateUniqueIdWithPrefix mustn't generate duplicated id when called multiple times" time="0.028" classname="Firefox_95_0_(Windows_10).UniqueIdService">
+    <failure type="">OperationError: The operation failed for an operation-specific reason (line 30231)
+error properties: Object({ code: 0, result: 2152923168, filename: 'vendor.js', columnNumber: 0, data: null, INDEX_SIZE_ERR: 1, DOMSTRING_SIZE_ERR: 2, HIERARCHY_REQUEST_ERR: 3, WRONG_DOCUMENT_ERR: 4, INVALID_CHARACTER_ERR: 5, NO_DATA_ALLOWED_ERR: 6, NO_MODIFICATION_ALLOWED_ERR: 7, NOT_FOUND_ERR: 8, NOT_SUPPORTED_ERR: 9, INUSE_ATTRIBUTE_ERR: 10, INVALID_STATE_ERR: 11, SYNTAX_ERR: 12, INVALID_MODIFICATION_ERR: 13, NAMESPACE_ERR: 14, INVALID_ACCESS_ERR: 15, VALIDATION_ERR: 16, TYPE_MISMATCH_ERR: 17, SECURITY_ERR: 18, NETWORK_ERR: 19, ABORT_ERR: 20, URL_MISMATCH_ERR: 21, QUOTA_EXCEEDED_ERR: 22, TIMEOUT_ERR: 23, INVALID_NODE_TYPE_ERR: 24, DATA_CLONE_ERR: 25 })
+rng@vendor.js:30231:10
+v4@vendor.js:35204:96
+generateUniqueId@main.js:484:63
+generateUniqueIdWithPrefix@main.js:476:31
+yi00/&lt;/&lt;@main.js:422:33
+invoke@polyfills.js:3059:30
+QpwO/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@vendor.js:41584:43
+invoke@polyfills.js:3058:36
+run@polyfills.js:2818:47
+runInTestZone@vendor.js:41837:38
+wrapTestInZone/&lt;@vendor.js:41852:24
+&lt;Jasmine&gt;
+invokeTask@polyfills.js:3094:35
+runTask@polyfills.js:2862:51
+drainMicroTaskQueue@polyfills.js:3264:39
+</failure>
+  </testcase>
+  <testcase name="UniqueIdService #generateUniqueIdWithPrefix should throw when called with empty" time="0.002" classname="Firefox_95_0_(Windows_10).UniqueIdService"/>
+  <testcase name="UniqueIdService #generateUniqueIdWithPrefix should generate id when called with prefix" time="0.007" classname="Firefox_95_0_(Windows_10).UniqueIdService">
+    <failure type="">OperationError: The operation failed for an operation-specific reason (line 30231)
+error properties: Object({ code: 0, result: 2152923168, filename: 'vendor.js', columnNumber: 0, data: null, INDEX_SIZE_ERR: 1, DOMSTRING_SIZE_ERR: 2, HIERARCHY_REQUEST_ERR: 3, WRONG_DOCUMENT_ERR: 4, INVALID_CHARACTER_ERR: 5, NO_DATA_ALLOWED_ERR: 6, NO_MODIFICATION_ALLOWED_ERR: 7, NOT_FOUND_ERR: 8, NOT_SUPPORTED_ERR: 9, INUSE_ATTRIBUTE_ERR: 10, INVALID_STATE_ERR: 11, SYNTAX_ERR: 12, INVALID_MODIFICATION_ERR: 13, NAMESPACE_ERR: 14, INVALID_ACCESS_ERR: 15, VALIDATION_ERR: 16, TYPE_MISMATCH_ERR: 17, SECURITY_ERR: 18, NETWORK_ERR: 19, ABORT_ERR: 20, URL_MISMATCH_ERR: 21, QUOTA_EXCEEDED_ERR: 22, TIMEOUT_ERR: 23, INVALID_NODE_TYPE_ERR: 24, DATA_CLONE_ERR: 25 })
+rng@vendor.js:30231:10
+v4@vendor.js:35204:96
+generateUniqueId@main.js:484:63
+generateUniqueIdWithPrefix@main.js:476:31
+yi00/&lt;/&lt;@main.js:418:28
+invoke@polyfills.js:3059:30
+QpwO/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@vendor.js:41584:43
+invoke@polyfills.js:3058:36
+run@polyfills.js:2818:47
+runInTestZone@vendor.js:41837:38
+wrapTestInZone/&lt;@vendor.js:41852:24
+&lt;Jasmine&gt;
+invokeTask@polyfills.js:3094:35
+runTask@polyfills.js:2862:51
+drainMicroTaskQueue@polyfills.js:3264:39
+</failure>
+  </testcase>
+  <testcase name="UniqueIdService #generateUniqueIdWithPrefix mustn't generate duplicated id when called multiple times" time="0.002" classname="Firefox_95_0_(Windows_10).UniqueIdService">
+    <failure type="">OperationError: The operation failed for an operation-specific reason (line 30231)
+error properties: Object({ code: 0, result: 2152923168, filename: 'vendor.js', columnNumber: 0, data: null, INDEX_SIZE_ERR: 1, DOMSTRING_SIZE_ERR: 2, HIERARCHY_REQUEST_ERR: 3, WRONG_DOCUMENT_ERR: 4, INVALID_CHARACTER_ERR: 5, NO_DATA_ALLOWED_ERR: 6, NO_MODIFICATION_ALLOWED_ERR: 7, NOT_FOUND_ERR: 8, NOT_SUPPORTED_ERR: 9, INUSE_ATTRIBUTE_ERR: 10, INVALID_STATE_ERR: 11, SYNTAX_ERR: 12, INVALID_MODIFICATION_ERR: 13, NAMESPACE_ERR: 14, INVALID_ACCESS_ERR: 15, VALIDATION_ERR: 16, TYPE_MISMATCH_ERR: 17, SECURITY_ERR: 18, NETWORK_ERR: 19, ABORT_ERR: 20, URL_MISMATCH_ERR: 21, QUOTA_EXCEEDED_ERR: 22, TIMEOUT_ERR: 23, INVALID_NODE_TYPE_ERR: 24, DATA_CLONE_ERR: 25 })
+rng@vendor.js:30231:10
+v4@vendor.js:35204:96
+generateUniqueId@main.js:484:63
+generateUniqueIdWithPrefix@main.js:476:31
+yi00/&lt;/&lt;@main.js:429:29
+invoke@polyfills.js:3059:30
+QpwO/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@vendor.js:41584:43
+invoke@polyfills.js:3058:36
+run@polyfills.js:2818:47
+runInTestZone@vendor.js:41837:38
+wrapTestInZone/&lt;@vendor.js:41852:24
+&lt;Jasmine&gt;
+invokeTask@polyfills.js:3094:35
+runTask@polyfills.js:2862:51
+drainMicroTaskQueue@polyfills.js:3264:39
+</failure>
+  </testcase>
+  <testcase name="UniqueIdService #getNumberOfGeneratedUniqueIds should return the number of generatedIds when called" time="0.005" classname="Firefox_95_0_(Windows_10).UniqueIdService">
+    <failure type="">OperationError: The operation failed for an operation-specific reason (line 30231)
+error properties: Object({ code: 0, result: 2152923168, filename: 'vendor.js', columnNumber: 0, data: null, INDEX_SIZE_ERR: 1, DOMSTRING_SIZE_ERR: 2, HIERARCHY_REQUEST_ERR: 3, WRONG_DOCUMENT_ERR: 4, INVALID_CHARACTER_ERR: 5, NO_DATA_ALLOWED_ERR: 6, NO_MODIFICATION_ALLOWED_ERR: 7, NOT_FOUND_ERR: 8, NOT_SUPPORTED_ERR: 9, INUSE_ATTRIBUTE_ERR: 10, INVALID_STATE_ERR: 11, SYNTAX_ERR: 12, INVALID_MODIFICATION_ERR: 13, NAMESPACE_ERR: 14, INVALID_ACCESS_ERR: 15, VALIDATION_ERR: 16, TYPE_MISMATCH_ERR: 17, SECURITY_ERR: 18, NETWORK_ERR: 19, ABORT_ERR: 20, URL_MISMATCH_ERR: 21, QUOTA_EXCEEDED_ERR: 22, TIMEOUT_ERR: 23, INVALID_NODE_TYPE_ERR: 24, DATA_CLONE_ERR: 25 })
+rng@vendor.js:30231:10
+v4@vendor.js:35204:96
+generateUniqueId@main.js:484:63
+generateUniqueIdWithPrefix@main.js:476:31
+yi00/&lt;/&lt;@main.js:434:17
+invoke@polyfills.js:3059:30
+QpwO/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@vendor.js:41584:43
+invoke@polyfills.js:3058:36
+run@polyfills.js:2818:47
+runInTestZone@vendor.js:41837:38
+wrapTestInZone/&lt;@vendor.js:41852:24
+&lt;Jasmine&gt;
+invokeTask@polyfills.js:3094:35
+runTask@polyfills.js:2862:51
+drainMicroTaskQueue@polyfills.js:3264:39
+</failure>
+  </testcase>
+  <testcase name="O artefato que se quer testar Primeira condição que queremos testar" time="0" classname="Firefox_95_0_(Windows_10).O artefato que se quer testar"/>
+  <testcase name="O artefato que se quer testar Segunda condição que queremos testar" time="0.001" classname="Firefox_95_0_(Windows_10).O artefato que se quer testar"/>
+  <testcase name="LikeWidgetComponent Should create component" time="0.107" classname="Firefox_95_0_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent #like should trigger (@output liked) when called" time="0.019" classname="Firefox_95_0_(Windows_10).LikeWidgetComponent">
+    <failure type="">OperationError: The operation failed for an operation-specific reason (line 30231)
+error properties: Object({ code: 0, result: 2152923168, filename: 'vendor.js', columnNumber: 0, data: null, INDEX_SIZE_ERR: 1, DOMSTRING_SIZE_ERR: 2, HIERARCHY_REQUEST_ERR: 3, WRONG_DOCUMENT_ERR: 4, INVALID_CHARACTER_ERR: 5, NO_DATA_ALLOWED_ERR: 6, NO_MODIFICATION_ALLOWED_ERR: 7, NOT_FOUND_ERR: 8, NOT_SUPPORTED_ERR: 9, INUSE_ATTRIBUTE_ERR: 10, INVALID_STATE_ERR: 11, SYNTAX_ERR: 12, INVALID_MODIFICATION_ERR: 13, NAMESPACE_ERR: 14, INVALID_ACCESS_ERR: 15, VALIDATION_ERR: 16, TYPE_MISMATCH_ERR: 17, SECURITY_ERR: 18, NETWORK_ERR: 19, ABORT_ERR: 20, URL_MISMATCH_ERR: 21, QUOTA_EXCEEDED_ERR: 22, TIMEOUT_ERR: 23, INVALID_NODE_TYPE_ERR: 24, DATA_CLONE_ERR: 25 })
+rng@vendor.js:30231:10
+v4@vendor.js:35204:96
+generateUniqueId@main.js:484:63
+generateUniqueIdWithPrefix@main.js:476:31
+ngOnInit@main.js:307:44
+callHook@vendor.js:50501:18
+callHooks@vendor.js:50471:25
+executeInitAndCheckHooks@vendor.js:50423:18
+refreshView@vendor.js:55669:45
+renderComponentOrTemplate@vendor.js:55768:20
+tickRootContext@vendor.js:56981:34
+detectChangesInRootView@vendor.js:57006:20
+detectChanges@vendor.js:57416:32
+_tick@vendor.js:31077:32
+detectChanges/&lt;@vendor.js:31090:22
+invoke@polyfills.js:3059:30
+QpwO/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@vendor.js:41584:43
+invoke@polyfills.js:3058:36
+onInvoke@vendor.js:75291:33
+invoke@polyfills.js:3058:36
+run@polyfills.js:2818:47
+run@vendor.js:75173:28
+detectChanges@vendor.js:31089:25
+8Ubr/&lt;/&lt;@main.js:200:17
+invoke@polyfills.js:3059:30
+QpwO/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@vendor.js:41584:43
+invoke@polyfills.js:3058:36
+run@polyfills.js:2818:47
+runInTestZone@vendor.js:41837:38
+wrapTestInZone/&lt;@vendor.js:41852:24
+&lt;Jasmine&gt;
+invoke@polyfills.js:3059:30
+run@polyfills.js:2818:47
+pDpN/&lt;/&lt;/&lt;/scheduleResolveOrReject/&lt;@polyfills.js:3552:40
+invokeTask@polyfills.js:3094:35
+runTask@polyfills.js:2862:51
+drainMicroTaskQueue@polyfills.js:3264:39
+</failure>
+  </testcase>
+  <testcase name="LikeWidgetComponent Should auto-generate ID during ngOnInit when (@Input id) is not assigned" time="0.021" classname="Firefox_95_0_(Windows_10).LikeWidgetComponent">
+    <failure type="">OperationError: The operation failed for an operation-specific reason (line 30231)
+error properties: Object({ code: 0, result: 2152923168, filename: 'vendor.js', columnNumber: 0, data: null, INDEX_SIZE_ERR: 1, DOMSTRING_SIZE_ERR: 2, HIERARCHY_REQUEST_ERR: 3, WRONG_DOCUMENT_ERR: 4, INVALID_CHARACTER_ERR: 5, NO_DATA_ALLOWED_ERR: 6, NO_MODIFICATION_ALLOWED_ERR: 7, NOT_FOUND_ERR: 8, NOT_SUPPORTED_ERR: 9, INUSE_ATTRIBUTE_ERR: 10, INVALID_STATE_ERR: 11, SYNTAX_ERR: 12, INVALID_MODIFICATION_ERR: 13, NAMESPACE_ERR: 14, INVALID_ACCESS_ERR: 15, VALIDATION_ERR: 16, TYPE_MISMATCH_ERR: 17, SECURITY_ERR: 18, NETWORK_ERR: 19, ABORT_ERR: 20, URL_MISMATCH_ERR: 21, QUOTA_EXCEEDED_ERR: 22, TIMEOUT_ERR: 23, INVALID_NODE_TYPE_ERR: 24, DATA_CLONE_ERR: 25 })
+rng@vendor.js:30231:10
+v4@vendor.js:35204:96
+generateUniqueId@main.js:484:63
+generateUniqueIdWithPrefix@main.js:476:31
+ngOnInit@main.js:307:44
+callHook@vendor.js:50501:18
+callHooks@vendor.js:50471:25
+executeInitAndCheckHooks@vendor.js:50423:18
+refreshView@vendor.js:55669:45
+renderComponentOrTemplate@vendor.js:55768:20
+tickRootContext@vendor.js:56981:34
+detectChangesInRootView@vendor.js:57006:20
+detectChanges@vendor.js:57416:32
+_tick@vendor.js:31077:32
+detectChanges/&lt;@vendor.js:31090:22
+invoke@polyfills.js:3059:30
+QpwO/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@vendor.js:41584:43
+invoke@polyfills.js:3058:36
+onInvoke@vendor.js:75291:33
+invoke@polyfills.js:3058:36
+run@polyfills.js:2818:47
+run@vendor.js:75173:28
+detectChanges@vendor.js:31089:25
+8Ubr/&lt;/&lt;@main.js:189:17
+invoke@polyfills.js:3059:30
+QpwO/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@vendor.js:41584:43
+invoke@polyfills.js:3058:36
+run@polyfills.js:2818:47
+runInTestZone@vendor.js:41837:38
+wrapTestInZone/&lt;@vendor.js:41852:24
+&lt;Jasmine&gt;
+invoke@polyfills.js:3059:30
+run@polyfills.js:2818:47
+pDpN/&lt;/&lt;/&lt;/scheduleResolveOrReject/&lt;@polyfills.js:3552:40
+invokeTask@polyfills.js:3094:35
+runTask@polyfills.js:2862:51
+drainMicroTaskQueue@polyfills.js:3264:39
+</failure>
+  </testcase>
+  <testcase name="LikeWidgetComponent Should auto-generate ID during ngOnInit when (@Input id) is assigned" time="0.021" classname="Firefox_95_0_(Windows_10).LikeWidgetComponent"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

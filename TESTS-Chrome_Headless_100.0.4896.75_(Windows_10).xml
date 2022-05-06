@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome Headless 100.0.4896.75 (Windows 10)" package="" timestamp="2022-05-06T01:11:58" id="0" hostname="SPON019402426" tests="11" errors="0" failures="0" time="0.072">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/100.0.4896.75 Safari/537.36"/>
+  </properties>
+  <testcase name="LikeWidgetComponent Should auto-generate ID during ngOnInit when (@Input id) is assigned" time="0.051" classname="Chrome_Headless_100_0_4896_75_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent Should auto-generate ID during ngOnInit when (@Input id) is not assigned" time="0.007" classname="Chrome_Headless_100_0_4896_75_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent Should create component" time="0.004" classname="Chrome_Headless_100_0_4896_75_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent #like should trigger (@output liked) when called" time="0.004" classname="Chrome_Headless_100_0_4896_75_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="O artefato que se quer testar Segunda condição que queremos testar" time="0" classname="Chrome_Headless_100_0_4896_75_(Windows_10).O artefato que se quer testar"/>
+  <testcase name="O artefato que se quer testar Primeira condição que queremos testar" time="0.001" classname="Chrome_Headless_100_0_4896_75_(Windows_10).O artefato que se quer testar"/>
+  <testcase name="UniqueIdService #generateUniqueIdWithPrefix mustn't generate duplicated id when called multiple times" time="0" classname="Chrome_Headless_100_0_4896_75_(Windows_10).UniqueIdService"/>
+  <testcase name="UniqueIdService #generateUniqueIdWithPrefix mustn't generate duplicated id when called multiple times" time="0.003" classname="Chrome_Headless_100_0_4896_75_(Windows_10).UniqueIdService"/>
+  <testcase name="UniqueIdService #generateUniqueIdWithPrefix should throw when called with empty" time="0.001" classname="Chrome_Headless_100_0_4896_75_(Windows_10).UniqueIdService"/>
+  <testcase name="UniqueIdService #getNumberOfGeneratedUniqueIds should return the number of generatedIds when called" time="0" classname="Chrome_Headless_100_0_4896_75_(Windows_10).UniqueIdService"/>
+  <testcase name="UniqueIdService #generateUniqueIdWithPrefix should generate id when called with prefix" time="0.001" classname="Chrome_Headless_100_0_4896_75_(Windows_10).UniqueIdService"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
